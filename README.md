@@ -120,17 +120,17 @@ un bug clásico de los juegos tipo Snake. Se corrigió agregando
 *(Sección personal — se deja redactada como punto de partida; se recomienda
 ajustarla con la propia experiencia antes de entregar.)*
 
-Usar IA como copiloto permitió llegar rápido a una primera versión jugable y
-enfocar el tiempo en pulir la *sensación* del juego (velocidad progresiva,
-evitar la reversión injusta) en vez de pelear con la sintaxis de `tkinter`
-desde cero. La principal ventaja del vibecoding fue poder iterar en
-lenguaje natural describiendo *comportamientos* ("se siente muy fácil",
-"pierde sin razón aparente") y dejar que la IA los tradujera a cambios de
-código concretos. El límite más claro es que la IA no puede *sentir* si el
-juego es divertido ni detectar por sí sola bugs de experiencia de usuario
-(como el de la reversión) — eso solo apareció al jugarlo manualmente, lo que
-confirma que el criterio humano sigue siendo necesario para validar,
-no solo para pedir.
+Usar Claude como copiloto de programación permitió llegar rápido a una
+primera versión jugable y enfocar el tiempo en pulir la *sensación* del
+juego (velocidad progresiva, evitar la reversión injusta) en vez de pelear
+con la sintaxis de `tkinter` desde cero. La principal ventaja del vibecoding
+fue poder iterar en lenguaje natural describiendo *comportamientos* ("se
+siente muy fácil", "pierde sin razón aparente") y dejar que Claude los
+tradujera a cambios de código concretos. El límite más claro es que Claude
+no puede *sentir* si el juego es divertido ni detectar por sí solo bugs de
+experiencia de usuario (como el de la reversión) — eso solo apareció al
+jugarlo manualmente, lo que confirma que el criterio humano sigue siendo
+necesario para validar, no solo para pedir.
 
 Partes del código que comprendo bien: el bucle principal del juego con
 `root.after()`, la detección de colisiones (`hits_wall`, `hits_self`), y por
