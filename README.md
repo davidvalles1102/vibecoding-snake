@@ -5,6 +5,8 @@ no requiere instalar nada extra). Proyecto para la actividad individual
 **"Vibecoding Guiado: Desarrollo de una Aplicación o Mini-Juego con IA como
 Copiloto"**.
 
+**Repositorio:** https://github.com/davidvalles1102/vibecoding-snake
+
 ## 1. Descripción y objetivo
 
 El objetivo del juego es controlar una serpiente con las flechas del teclado,
